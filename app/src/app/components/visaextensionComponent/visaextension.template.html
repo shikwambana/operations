@@ -1,0 +1,40 @@
+<div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
+  <div fxLayout="column wrap" style="background-image:url(https://i.ibb.co/r0nnWJb/pexels-photo-269850.jpg);background-repeat: no-repeat; background-size: cover;height:20em" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
+    <p style="font-size:3em;text-align:center;color:white;margin-top:3em;">Visa Extension</p>
+  </div>
+  <div fxLayout="column wrap" fxLayoutAlign="start none" fxShow="true" fxHide="false" ngClass.xs="cardxs" ngClass.gt-xs="card">
+    <div fxLayout="column wrap" fxLayoutAlign="center none" fxShow="true" fxHide="false">
+      <h1 style="color:red">Visa Extension</h1>
+      <h1 style="font-size:20px">Fields marked with an * are required</h1>
+      <mat-form-field style=" text-align:center;text-decoration:none">
+        <input matInput="" [(ngModel)]="visa.name" placeholder="Full name" required>
+      </mat-form-field>
+      <mat-form-field style=" text-align:center">
+        <input matInput="" [(ngModel)]="visa.Email" placeholder="Email" required>
+      </mat-form-field>
+      <mat-form-field color="black" style="text-align:center">
+        <input matInput="" [(ngModel)]="visa.phone" placeholder="phone" required>
+      </mat-form-field>
+      <mat-form-field style="text-align:center">
+        <input matInput="" [(ngModel)]="visa.Expiration" placeholder="when does your visa expire?" required>
+      </mat-form-field>
+      <mat-form-field color="black" style=" text-align:center">
+        <input matInput="" [(ngModel)]="visa.passportNumber" placeholder="Passport Number" required>
+      </mat-form-field>
+      <mat-form-field style="text-align:center">
+        <input matInput="" [(ngModel)]="visa.Renew" placeholder="when would you like to go renew your visa?" required>
+      </mat-form-field>
+      <mat-form-field color="black" style=" text-align:center">
+        <input matInput="" [(ngModel)]="visa.Time" placeholder="Time" required>
+      </mat-form-field>
+      <mat-form-field>
+        <mat-select style="text-align:center" placeholder="All required documents?" [(ngModel)]="visa.documentation " required>
+          <mat-option *ngFor="let document of documents" [value]="document">{{document}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <div fxLayout="row wrap" fxLayoutAlign="center center" fxShow="true" fxHide="false">
+        <button mat-raised-button="" style="background-color:grey" color="grey">submit</button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,13 @@
+{
+    "appPageId": "ffa438dc-0298-4128-d0be-d1c0bd3624dd",
+    "appPageName": "operations",
+    "componentName": "operationsComponent",
+    "selectorName": "bh-operations",
+    "htmlFileName": "operations.template.html",
+    "tsFileName": "operations.component.ts",
+    "bkd": {
+        "designerHtml": "",
+        "designerReference": {},
+        "ts": ""
+    }
+}

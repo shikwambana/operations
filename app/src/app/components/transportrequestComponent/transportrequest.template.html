@@ -1,0 +1,41 @@
+<div fxLayout="column wrap" fxLayoutAlign="center stretch" fxShow="true" fxHide="false">
+  <div fxLayout="column wrap" style="max-width:100%;height:352px;background-image:url(https://i.ibb.co/vsRGnB4/black-and-white-car-interior-gear-89693.jpg);" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
+    <h1 style="text-align:center;color:white;font-size:64px;">Transport Requests</h1>
+    <h3 style="color:white;text-align:center;font-size:24px;">Please ensure that all bookings are made 24 hours in advance</h3>
+  </div>
+  <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" ngClass.xs="cardxs" ngClass.gt-xs="card">
+    <div fxLayout="column wrap" style="padding: 2em 0;" fxLayoutAlign="center none" fxShow="true" fxHide="false" ngClass.xs="cardxs" ngClass.gt.xs="card">
+      <mat-form-field>
+        <input matInput="" placeholder="Choose the Date" [matDatepicker]="picker">
+        <mat-datepicker-toggle matSuffix="" [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker=""></mat-datepicker>
+      </mat-form-field>
+      <mat-form-field>
+        <mat-select placeholder="Destination" required>
+          <mat-option></mat-option>
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput="" placeholder="From" required>
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput="" placeholder="To" required>
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput="" placeholder="Time" required>
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput="" placeholder="Additional Information">
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput="" type="number" placeholder="Whatsapp Number" required>
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput="" placeholder="Email" required>
+      </mat-form-field>
+      <div fxLayout="row wrap" fxLayoutAlign="center center" fxShow="true" fxHide="false">
+        <button mat-raised-button="" (click)="submit()">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,13 @@
+{
+    "appPageId": "397a1fd9-fe55-02d5-13ea-af69b3616061",
+    "appPageName": "VisaExtension",
+    "componentName": "visaextensionComponent",
+    "selectorName": "bh-visaextension",
+    "htmlFileName": "visaextension.template.html",
+    "tsFileName": "visaextension.component.ts",
+    "bkd": {
+        "designerHtml": "",
+        "designerReference": {},
+        "ts": ""
+    }
+}

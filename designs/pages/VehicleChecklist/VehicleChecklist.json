@@ -1,0 +1,13 @@
+{
+    "appPageId": "87fba72b-a636-3004-7c10-694c5ef8d814",
+    "appPageName": "VehicleChecklist",
+    "componentName": "vehiclechecklistComponent",
+    "selectorName": "bh-vehiclechecklist",
+    "htmlFileName": "vehiclechecklist.template.html",
+    "tsFileName": "vehiclechecklist.component.ts",
+    "bkd": {
+        "designerHtml": "",
+        "designerReference": {},
+        "ts": ""
+    }
+}

@@ -1,0 +1,97 @@
+/*Importing default angular material css theme. */
+
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+@import "nDefaults.scss";
+
+.login-card .mat-card-image:first-child {
+    margin-top:0 !important
+}
+
+.primary-red-btn {
+    background-color: #ee1c22;
+    color: white;
+}
+
+
+.card{
+    margin: 0 35%;
+}
+
+.cardxs{
+    margin: 0 15%;
+}
+
+.myLi:hover {
+    background-color: #4db6ac;
+    border-bottom: 2px solid #d50000;
+}
+
+.myLi:focus {
+    border-bottom: 2px solid #d50000;
+}
+
+
+.logoutBtn:hover {
+    background-color: #d50000;
+    color: white;
+}
+
+.myLogo img {
+    width: 60%;
+    height: 65px;
+}
+
+.footDetails :hover {
+    color: #d50000;
+}
+
+.miniMenu {
+    display: none !important;
+}
+.logoutBtn2 {
+    display: none !important;
+}
+
+@media only screen and (max-width: 930px) {
+    body {
+        box-sizing: boder-box;
+    }
+    .myLogo img {
+        width: 80%;
+        height: 65px;
+    }
+    .logoutBtn {
+        margin: 0 !important;
+    }
+    .miniMenu {
+        display: inline-block !important;
+    }
+    .logoutBtn2 {
+        display: inline-block !important;
+        margin-right: 20px !important;
+    }
+    .mainMenu {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .myLogo img {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 395px) {
+    .footDetails {
+        width: 100%;
+        text-align: center;
+    }
+    .myLogo img {
+        width: 100%;
+    }
+    .mySmallHeader {
+        width: 100%;
+        text-align: center;
+    }
+    
+}

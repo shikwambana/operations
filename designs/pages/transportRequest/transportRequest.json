@@ -1,0 +1,13 @@
+{
+    "appPageId": "efb3bbb6-63cc-bb61-3c49-5ebb040f971e",
+    "appPageName": "transportRequest",
+    "componentName": "transportrequestComponent",
+    "selectorName": "bh-transportrequest",
+    "htmlFileName": "transportrequest.template.html",
+    "tsFileName": "transportrequest.component.ts",
+    "bkd": {
+        "designerHtml": "",
+        "designerReference": {},
+        "ts": ""
+    }
+}

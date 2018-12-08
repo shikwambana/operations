@@ -1,0 +1,88 @@
+{
+    "routes": [
+        {
+            "path": "home",
+            "component": "homeComponent",
+            "pathMatch": "",
+            "redirectTo": "",
+            "resolve": "",
+            "data": "",
+            "canActivate": "",
+            "children": [
+                {
+                    "path": "vehicle",
+                    "component": "vehiclechecklistComponent",
+                    "pathMatch": "",
+                    "redirectTo": "",
+                    "resolve": "",
+                    "data": "",
+                    "canActivate": ""
+                },
+                {
+                    "path": "extension",
+                    "component": "visaextensionComponent",
+                    "pathMatch": "",
+                    "redirectTo": "",
+                    "resolve": "",
+                    "data": "",
+                    "canActivate": ""
+                },
+                {
+                    "path": "transport",
+                    "component": "transportrequestComponent",
+                    "pathMatch": "",
+                    "redirectTo": "",
+                    "resolve": "",
+                    "data": "",
+                    "canActivate": ""
+                }
+            ]
+        },
+        {
+            "path": "login",
+            "component": "loginComponent",
+            "pathMatch": "",
+            "redirectTo": "",
+            "resolve": "",
+            "data": "",
+            "canActivate": ""
+        },
+        {
+            "path": "unauthorized",
+            "component": "",
+            "pathMatch": "full",
+            "redirectTo": "/login",
+            "resolve": "",
+            "data": "",
+            "canActivate": ""
+        },
+        {
+            "path": "admin",
+            "component": "adminComponent",
+            "pathMatch": "",
+            "redirectTo": "",
+            "resolve": "",
+            "data": "",
+            "canActivate": ""
+        },
+        {
+            "path": "''",
+            "component": "",
+            "pathMatch": "full",
+            "redirectTo": "/home",
+            "resolve": "",
+            "data": "",
+            "canActivate": "",
+            "default": true
+        },
+        {
+            "path": "**",
+            "component": "PageNotFoundComponent",
+            "pathMatch": "",
+            "redirectTo": "",
+            "resolve": "",
+            "data": "",
+            "canActivate": ""
+        }
+    ]
+}

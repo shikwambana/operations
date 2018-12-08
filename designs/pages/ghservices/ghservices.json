@@ -1,0 +1,13 @@
+{
+    "appPageId": "37ed4465-2c3b-2431-59ef-f67197cc2ba8",
+    "appPageName": "ghservices",
+    "componentName": "ghservicesComponent",
+    "selectorName": "bh-ghservices",
+    "htmlFileName": "ghservices.template.html",
+    "tsFileName": "ghservices.component.ts",
+    "bkd": {
+        "designerHtml": "",
+        "designerReference": {},
+        "ts": ""
+    }
+}

@@ -1,0 +1,26 @@
+<div fxLayout="column wrap" style=" background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );  background-image: url(http://www.unswerve.tech/operations/wp-content/uploads/2018/06/speed-1249610_640.jpg);     background-attachment: fixed;     background-position: center center;     text-align: center;     color: white;     height: 25%;     width: 100%;     padding: 2%;     background-color: lightslategrey;     background-blend-mode: overlay;" class="heading" fxLayoutAlign="center stretch" fxShow="true" fxHide="false">
+  <mat-card-title style="font-size: 50px;" class="headerTitle">Vehicle Checklist</mat-card-title>
+</div>
+<div fxLayout="column wrap" fxLayoutAlign="center none" fxShow="true" fxHide="false">
+  <div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false" ngClass.xs="cardxs" ngClass.gt-xs="card">
+    <div fxLayout="column wrap" fxLayoutAlign="center none" fxShow="true" fxHide="false">
+      <h2 style="color: red;">Vehicle checklist</h2>
+      <h3>Fields marked with an * are required</h3>
+      <mat-form-field>
+        <mat-select placeholder="Select your Guesthouse" required>
+          <mat-option *ngFor="let option of options" [value]="option">{{ option }}</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field><input matInput="" placeholder="Validity of License Disk" required></mat-form-field>
+      <mat-form-field><input matInput="" placeholder="General Condition of Bodywork" required></mat-form-field>
+      <mat-form-field><input matInput="" placeholder="General Condition of Interior" required></mat-form-field>
+      <mat-form-field><input matInput="" placeholder="All lights: Brakes / Indicator / Head / Reverse / Interior" required></mat-form-field>
+      <mat-form-field><input matInput="" placeholder="Test Hand Brakes" required></mat-form-field>
+      <mat-form-field><input matInput="" placeholder="Test Foot Brakes" required></mat-form-field>
+      <mat-form-field><input matInput="" placeholder="Test Clutch" required></mat-form-field>
+      <mat-form-field><input matInput="" placeholder="Oil Level / Brake Fluid Level" required></mat-form-field>
+      <mat-form-field><input matInput="" placeholder="Check all Tyres Including Spare Tyres" required></mat-form-field>
+      <mat-form-field><input matInput="" placeholder="All Door Locks" required></mat-form-field><button mat-raised-button="" style="background-color: red; color:white; width: 150px; margin: 20px 0;" (click)="storeChecklist()">Submit</button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,45 @@
+<div fxLayout="column wrap" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
+  <header>
+    <mat-toolbar fxLayout="row" style="padding: 40px 0; background-color: black; ">
+      <div fxLayout="column wrap" class="myLogo" fxFlex="40" fxLayoutAlign="start stretch" fxShow="true" fxHide="false">
+        <a href="/login">
+          <img src="https://i.ibb.co/QQznJQd/logo.png">
+        </a>
+      </div>
+      <div fxLayout="column " class="mySmallHeader" fxFlex="60" fxLayoutAlign="end stretch" fxShow="true" fxHide="false">
+        <div fxLayout="row wrap" fxLayoutGap="5" fxLayoutAlign="end stretch" fxShow="true" fxHide="false">
+          <mat-list class="mainMenu">
+            <mat-list-item style="display: inline-block; vertical-align: center;color: white;" class="myLi">Home</mat-list-item>
+            <mat-list-item style="display: inline-block; vertical-align: center;color: white;" class="myLi">Emergency Number</mat-list-item>
+            <mat-list-item style="display: inline-block; vertical-align: center;color: white;" class="myLi">Standard Operations Procedure</mat-list-item>
+            <button mat-raised-button="" style="margin: 0 20px;" class="logoutBtn" (click)="logoutUser()">Logout</button>
+          </mat-list>
+          <button class="miniMenu" style="margin-bottom: 50px !important;" mat-button="" [matMenuTriggerFor]="menu">
+            <mat-icon style="color: white;">menu</mat-icon>
+          </button>
+          <mat-menu #menu="matMenu">
+            <button mat-menu-item="">Home</button>
+            <button mat-menu-item="">Emergency Numbers</button>
+            <button mat-menu-item="">Standard Operation Procedure</button>
+          </mat-menu>
+          <button mat-raised-button="" style="margin: 0 20px;" class="logoutBtn2" (click)="logoutUser()">Logout</button>
+        </div>
+      </div>
+    </mat-toolbar>
+  </header>
+  <router-outlet></router-outlet>
+  <footer style="background-color: black; color: white;padding: 10px 10px 0 10px;">
+    <div fxLayout="row wrap" style="padding: 10px 30px 20px 30px;" fxLayoutAlign="space-between center" fxShow="true" fxHide="false">
+      <div fxLayout="column wrap" class="footDetails" fxLayoutAlign="center center" fxShow="true" fxHide="false">
+        <a href="#" style="color: white; text-decoration: none;">
+          <b>Terms &amp; conditions</b>
+        </a>
+      </div>
+      <div fxLayout="column wrap" class="footDetails" fxLayoutAlign="center center" fxShow="true" fxHide="false">
+        <a href="#" style="color: white; text-decoration: none;">
+          <b>&#xA9; Neutrinos Interns</b>
+        </a>
+      </div>
+    </div>
+  </footer>
+</div>

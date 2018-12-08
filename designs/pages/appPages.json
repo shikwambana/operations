@@ -1,0 +1,52 @@
+{
+    "b1c5f4af-15fe-c86a-e713-ed634c0ef25c": {
+        "appPageName": "login",
+        "componentName": "loginComponent",
+        "isEntry": false
+    },
+    "c4581771-ca63-f41c-3097-bf95322621ac": {
+        "appPageName": "home",
+        "componentName": "homeComponent",
+        "isEntry": false
+    },
+    "dd3691d2-d623-8efe-ea01-b9543d360deb": {
+        "appPageName": "loader",
+        "componentName": "loaderComponent",
+        "isEntry": false
+    },
+    "a4e671ce-a7e0-d6ea-f728-076b7600c6b6": {
+        "appPageName": "admin",
+        "componentName": "adminComponent",
+        "isEntry": false
+    },
+    "a6785c12-86ec-3dee-0507-8b476aabffa3": {
+        "appPageName": "VehicleChecklist",
+        "componentName": "vehiclechecklistComponent",
+        "isEntry": false
+    },
+    "0a0b55a9-48b0-3e71-95f8-2b04c7adaa2b": {
+        "appPageName": "VisaExtension",
+        "componentName": "visaextensionComponent",
+        "isEntry": false
+    },
+    "5e97e9df-d195-7a59-44c9-05869ebfda78": {
+        "appPageName": "GuesthouseServices",
+        "componentName": "guesthouseservicesComponent",
+        "isEntry": false
+    },
+    "ce6cc7ea-8046-fc5e-929e-a2fc5c87ed7f": {
+        "appPageName": "transportRequest",
+        "componentName": "transportrequestComponent",
+        "isEntry": false
+    },
+    "1a1030d5-3f76-997e-d2dd-d9c79e31a40d": {
+        "appPageName": "operations",
+        "componentName": "operationsComponent",
+        "isEntry": false
+    },
+    "37ed4465-2c3b-2431-59ef-f67197cc2ba8": {
+        "appPageName": "ghservices",
+        "componentName": "ghservicesComponent",
+        "isEntry": false
+    }
+}
